@@ -35,7 +35,7 @@ header{ height:50px; width:100%; position: fixed; top:0;left:0; background: #900
 .home aside li.ac{ background:#fff; color:#f55}
 
 /*右侧菜单*/
-.home .order-bar{margin-left:80px;padding-bottom:20px;position:relative;}
+.home .order-bar{margin-left:73px;padding-bottom:20px;position:relative;}
 .home .order-bar .order-class h3{ height:35px; line-height:35px; font-size:16px; background:#efefef; text-indent:10px}
 .home .good-list{padding-bottom: 50px;}
 .home .good-list li{ min-height:70px; padding:14px 20px 14px 90px; position:relative; border-bottom:1px solid #eee;}

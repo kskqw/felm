@@ -8,11 +8,31 @@ import pay from '@/views/pay.vue'
 Vue.use(VueRouter)
 
 const routes = [
-  {path:'/',redirect:'home'},
-  {path:'/home',name:'home',component:home,meta:{keepAlive:true}},
-  {path:'/detail',name:'detail',component:detail},
-  {path:'/list',name:'list',component:list},
-  {path:'/pay',name:'pay',component:pay},
+  {
+    path:'/',
+    redirect:'home'
+  },
+  {
+    path:'/home',
+    name:'home',
+    component:home,
+    meta:{keepAlive:true}
+  },
+  {
+    path:'/detail',
+    name:'detail',
+    component:detail
+  },
+  {
+    path:'/list',
+    name:'list',
+    component:list
+  },
+  {
+    path:'/pay',
+    name:'pay',
+    component:pay
+  },
 ]
 
 const router = new VueRouter({

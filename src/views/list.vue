@@ -39,6 +39,7 @@ export default({
         this.shopping_cart = this.$store.shopping_cart
 
         for(let key in this.goods){
+            //includes() 方法用来判断一个数组是否包含一个指定的值，如果是返回 true，否则false。
             if(this.goods[key].name.includes(this.keyword) && this.keyword!=''){
                 this.search_list.push(this.goods[key])
             }

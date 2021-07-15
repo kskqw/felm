@@ -105,8 +105,8 @@ export default {
       shopping_cart:[
         
       ],
-      totalPrice:10,
-      totalNum:2
+      totalPrice:0,
+      totalNum:0
     };
   },
   methods:{
